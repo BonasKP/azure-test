@@ -1,0 +1,15 @@
+app_id: "e0d58670-2d5b-42c4-9073-c32e3b029e75"
+app_secret: "qadPMEU136[%usfhPBV87%^"
+scopes: "openid profile offline_access user.read calendars.read"
+
+#app_id: "ac94ef81-cdc5-4c1a-a865-8f9d4dd769f5"
+#app_secret: "el2.yKPFT24q-fGk-2O~k5075gWrbvK~us"
+#scopes: "User.ReadBasic.All"
+
+redirect: "https://bonas-app-service.azurewebsites.net/callback"
+authority: "https://login.microsoftonline.com/common"
+authorize_endpoint: "/oauth2/v2.0/authorize"
+token_endpoint: "/oauth2/v2.0/token"
+
+
+
