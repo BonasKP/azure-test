@@ -3,6 +3,7 @@
 
 <!-- <HomeSnippet> -->
 {% extends "tutorial/layout.html" %}
+{% load static %}
 {% block content %}
 <div class="jumbotron">
   <h1>GraphAPI</h1>
@@ -12,6 +13,11 @@
   {% else %}
     <a href="{% url 'signin' %}" class="btn btn-primary btn-large">Click here to sign in</a>
   {% endif %}
+
+  
+</div>
+<div>
+  <img src="{% static 'image/218017.jpg' %}" alt="" style="display: block; margin: auto; width: 50%;height: 50%;">
 </div>
 {% endblock %}
 <!-- </HomeSnippet> -->
